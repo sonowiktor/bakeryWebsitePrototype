@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--The title of the page-->
+    <title>Galeria Pieczywa - Staropolski Smak Chleba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importing styles.css for my html files-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="home theme">
+    <div class="wrapper">
+      <header>
+        <div class="inner clear">
+          <!--By clicking a logo, user refreshes the page or comes back to it-->
+          <a class="logo" href="index.html"></a>
+          <nav class="nav-main">
+            <ul class="clear">
+                <li class>
+                  <!--Button allowing us to the products page-->
+                  <a class="dropdown-trigger" href="products.html">
+                    Products <span class="nav-caret"></span>
+                  </a>
+                  <!--I tried to do dropdown menu, but I did not manage to do that-->
+                  <ul class="dropdown">
+                    <li>
+                      <a>List of products available</a>
+                    </li>
+                    <li>
+                      <a>Bread</a>
+                    </li>
+                    <li>
+                      <a>Pastry</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--Button allowing us to come back to the contact page-->
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>              
+            <a href="#" class="mobile-nav-trigger">
+              <span class="icon-menu"></span>
+            </a>
+            <!--Button allowing us to come back to the basket page-->
+            <a href="basket.html" class="cart-status">
+              <span class="cart-count">0</span>
+              <span class="icon-cart"></span>
+              <div class="cart-orb" style="display: none;"></div>
+            </a>
+          </nav>
+        </div>
+      </header>
+      <!--Section displaying at the middle of the page-->
+        <section>
+          <!--Heading of this page-->
+            <h2>About us</h2>
+            <!--The text introduces to the website-->
+            <p>Galeria Pieczywa - Staropolski Smak Chleba is a bakery founded in 2012, with a deep-rooted commitment to delivering the authentic taste of traditional Polish bread. With a strong emphasis on quality, this bakery takes pride in sourcing the finest ingredients and employing time-honored baking techniques to craft bread that is truly exceptional in taste and texture.</p>
+            <br> <!--Break between paragraphs-->
+            <br> <!--Break between paragraphs-->
+            <p>We are currently located in 2 locations across Warsaw, Poland, but we want to expand the company further. Our latest venture is an online platform, Galeria Pieczywa - Staropolski Smak Chleba, where customers can conveniently order our high-quality bread products from the comfort of their homes and have them delivered right to their doors. Feel free to explore the website to learn more about us. Below you can see the founders of Galeria Pieczywa - Staropolski Smak Chleba, who are passionate about preserving the traditional taste and quality of Polish bread while embracing modern technology to make it accessible to customers with just a few clicks.</p>
+            <br> <!--Break between paragraphs-->
+            <br> <!--Break between paragraphs-->
+            <!--Class displaying the faces of the owners-->
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Description of your image" class="animate-img">
+              <img src="https://t3.ftcdn.net/jpg/01/31/37/46/360_F_131374613_cPZB450AjBSDdKDaiifWjKpDABokZTp1.jpg" alt="Description of your image" class="animate-img">
+            </div>
+            <!--Small description of the owners-->
+            <figcaption>Joanna Kumor and Witold Kumor. The CEOs of the "Galeria Pieczywa. Staropolski smak chleba" bakery chain</figcaption>
+        </section>                       
+    </div>
+    <!--Footer class allowing us to see the opening hours of the bakery-->
+    <footer>
+        <div class="inner">
+          <!--Displaying the data about the opening hours-->
+            <ul class="contact_data">
+                <li>
+                    <a title="owners">Opening hours of the bakery:</a>
+                </li>
+                <li>
+                    <a title="description">Mon-Fri: 6.30 am - 6 pm</a>
+                </li>
+                <li>
+                    <a title="description2">Sat: 7 am - 2 pm</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--Importing scripts.js for my html files-->
+    <script src="scripts.js"></script>    
+    </body>
+</html>
